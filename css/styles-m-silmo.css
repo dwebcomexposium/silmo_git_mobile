@@ -1121,3 +1121,14 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 
 
 
+/* ------------------------------------------------------------ *\
+	Block Keywords
+\* ------------------------------------------------------------ */
+
+.block-keywords { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 35px 0; margin-bottom: 75px; color: #161616; justify-content: center; }
+.block-keywords:before { content: ''; position: absolute; top: 0; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 100vw; background: #ffed00; pointer-events: none; }
+.block-keywords > * { position: relative; }
+.block-keywords .cols { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; flex-direction: column;  }
+.block-keywords .col { width: 100% ; padding-bottom: 15px; }
+
+.block-keywords .block__aside { width: 180px; text-align: center; padding: 25px 0; }
