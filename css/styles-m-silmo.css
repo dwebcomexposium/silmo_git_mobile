@@ -708,7 +708,7 @@ dl { padding: 0; margin: 0; list-style-type: none; }
 	Newsletter Form
 \* ------------------------------------------------------------ */
 
-.newsletter-form { display: none!important; font-size: 15px; line-height: 1.33em; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,.8); z-index: 10; }
+.newsletter-form { display: none!important; font-size: 15px; line-height: 1.33em; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,.8); z-index: 7000; }
 .newsletter-form.form-shown { display: block !important; }
 
 .newsletter-form form { font-family: 'Brandon Grotesque', sans-serif!important; }
@@ -870,10 +870,10 @@ dl { padding: 0; margin: 0; list-style-type: none; }
 .article-wrapper .article-content .focus2 { margin-top: 25px; }
 .article-wrapper .article-content .style4 { margin: 29px 0 28px; }
 
-.article-wrapper .article-content .lien1,
+.article-wrapper .article-content .lien1, .popup-alt .lien1,
 .article-wrapper .article-content .lien2 { position: relative; display: inline-block; font-family: 'Montserrat', sans-serif!important; font-size: 14px; line-height: 1!important; font-weight: 800!important; text-transform: uppercase; text-decoration: none; }
 
-.article-wrapper .article-content .lien1 {  border: 1px solid #000000; font-weight: 700; padding: 12px 55px 10px 26px; min-width: 204px; }
+.article-wrapper .article-content .lien1, .popup-alt .lien1 {  border: 1px solid #000000; font-weight: 700; padding: 12px 55px 10px 26px; min-width: 204px; }
 .article-wrapper .article-content .lien1:last-of-type { max-width: 225px; line-height: 1.45; padding: 12px 55px 10px 26px; }
 .article-wrapper .article-content .lien1:last-of-type:after { right: 14px; }
 .article-wrapper .article-content .lien1:after,
@@ -1132,3 +1132,145 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 .block-keywords .col { width: 100% ; padding-bottom: 15px; }
 
 .block-keywords .block__aside { width: 180px; text-align: center; padding: 25px 0; }
+
+/* ------------------------------------------------------------ *\
+    Popup Alt
+\* ------------------------------------------------------------ */
+
+.popup-alt { position: fixed; top: 0; left: 0; z-index: 5002; width: 100%; height: 100%; background: rgba(0, 0, 0, .7); opacity: 0; visibility: hidden; transition: .3s; }
+.popup-alt .popup__inner { position: relative; width: 300px; height: 750px;
+margin: 50px auto 10px; background: #fff; overflow: hidden; background: rgb(255,240,42);
+background: linear-gradient(-210deg, rgba(255,240,42,1) 11%, rgba(186,104,162,1) 49%, rgba(3,39,94,1) 94%);}
+
+.popup-alt .popup__head { margin-bottom: 15px; padding: 57px 0 0 0; font-family: 'Gotham Book'; color: #000; text-align: center; font-weight: 500; }
+.popup-alt .popup__head h4 { margin-bottom: 7px; padding-right: 26px; font-family: 'Gotham'; font-weight: 900; font-size: 17px; color: #111617; text-transform: uppercase; max-width: 250px; line-height: 1; margin: 0 auto; }
+.popup-alt .popup__head p { margin: 15px; line-height: 1.5; font-size: 12px; }
+.popup-alt .popup__head span { position: relative; }
+.popup-alt .popup__head span:before { content: ''; position: absolute; bottom: calc(100% + 7px); left: 0; display: inline-block; height: 10px; width: 105%; background: #111617; }
+
+.popup-alt .popup__body { padding: 0 15px 0 15px; }
+.popup-alt .popup__bar { padding: 0; /*background: #427685;*/ text-align: center; margin: 30px 0; }
+.popup-alt .popup__bar label { font-size: 11px; }
+
+.popup-alt .popup__content {text-align: center;  display: block; width: 100%; }
+.popup-alt .popup__content img {display: block; margin: 0 auto; max-width: 250px; }
+.popup-alt .popup__left img { max-width: 240px; }
+
+.popup-alt .popup__content h3 {color: #fff; padding-top: 15px; font-size: 17px; }
+.popup-alt .popup__content p {color: #fff; padding-top: 25px; font-size: 14px; }
+.popup__left { width: 294px; float: left; margin: 30px; }
+
+
+.popup-alt .lien1 { display: inline-block; color: #fff; border-color: #fff; margin-top: 30px; line-height: 0.7; padding: 15px; }
+.popup-alt .lien1 .icon { display: none}
+
+/*.popup-alt .lien1:after { background-image: url(images/icons/ico-arrow-right-white.svg); }*/
+
+.popup-alt.show { opacity: 1; visibility: visible; }
+
+.popup-alt .checkbox label:before { border: 1px solid rgba(255, 255, 255, .4); border-radius: 0; background: none; }
+
+
+
+
+
+/* ------------------------------------------------------------ *\
+    Button Close Popup
+\* ------------------------------------------------------------ */
+
+.btn-close-popup { position: absolute; top: 20px; right: 20px; width: 47px; height: 49px; display: inline-block; margin: 20px 10px 0 0; padding: 0;  }
+
+
+.btn-close-popup .ico-close { position: relative; transition: .8s; }
+
+.btn-close-popup:hover .ico-close{ transform: rotate(180deg); }
+
+.ico-close {
+    width: 19px;
+    height: 19px;
+    background: url(images/popup/ico-close.png);
+}
+
+/* ------------------------------------------------------------ *\
+    Btn Callout
+\* ------------------------------------------------------------ */
+
+.btn-callout { display: flex; max-width: 397px; height: 60px; margin: 0 auto 19px; padding: 15px 0 0; background: #ffdc00; overflow: hidden; justify-content: center  }
+:lang(en) .btn-callout { max-width: 380px; }
+
+.btn-callout .btn__content { padding: 0; }
+.btn-callout .btn__image { margin-right: 15px; padding: 0; margin-top: -5px; }
+
+.btn-callout h5 { margin: 0; line-height: 1.2; font-family: 'Gotham'; font-weight: bold; font-size: 12px; color: #111617; text-align: left; letter-spacing: .09em; }
+.btn-callout h3 { margin: 0; line-height: 1; font-family: 'Gotham'; font-weight: 900; font-size: 18px; color: #111617; text-align: left; letter-spacing: .01em; }
+.btn-callout:hover .btn__image { animation: toTopFromBottom 1s forwards; }
+
+@keyframes toTopFromBottom {
+    0% {
+        transform: translateY(0);
+    }
+    49% {
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 0; 
+        transform: translateY(100%);
+    }
+    51% {
+        opacity: 1; 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* ------------------------------------------------------------ *\
+    List Logos 
+\* ------------------------------------------------------------ */
+
+.list-logos { display: flex; justify-content: space-around; align-items: center; padding: 0; margin-bottom: 36px; flex-wrap: wrap; }
+
+.list-logos a { display: inline-block; transition: .3s; }
+.list-logos a:hover { opacity: .8; }
+
+/* ------------------------------------------------------------ *\
+    Logos
+\* ------------------------------------------------------------ */
+
+.logo-orange { width: 83px; height: 45px; margin-top: -8px; }
+.logo-green { width: 90px; height: 50px; }
+.logo-red { width: 76px; height: 48px; }
+.logo-blue { width: 69px; height: 46px; }
+
+/* ------------------------------------------------------------ *\
+    List Links
+\* ------------------------------------------------------------ */
+
+.list-links { display: flex; justify-content: center; margin: 0 10px 40px 0; padding: 0; line-height: 1.2; font-size: 13px; }
+
+.list-links li { height: auto; }
+.list-links li + li { margin-left: 25px; }
+
+.list-links a { display: flex; align-items: center; font-family: 'Gotham'; font-weight: bold; font-size: 8px; color: #417181; text-decoration: none; text-transform: uppercase; }
+
+.list-links figure { position: relative; display: inline-block; margin: 0; width: 55px; height: 53px; background: url(images/popup/light-blue.png); background-size: 80% 80%; background-position: center center; background-repeat: no-repeat; text-align: center; line-height: 53px; transition: .5s; }
+
+.list-links svg { display: inline-block; }
+
+.list-links a:hover figure { transform: scale(1.2); }
+
+/* ------------------------------------------------------------ *\
+    Checkbox 
+\* ------------------------------------------------------------ */
+
+.checkbox { position: relative; margin-left: 12px; }
+
+.checkbox input { position: absolute; z-index: -1; opacity: 0; visibility: hidden; }
+
+.checkbox label { position: relative; display: inline-block; margin: 0; padding-right: 28px; font-size: 12px; color: #fff; letter-spacing: .04em; user-select: none; }
+
+.checkbox label:before { content: ''; position: absolute; top: 1px; right: 0; display: inline-block; width: 19px; height: 19px; border: 1px solid rgba(255, 255, 255, .5); border-radius: 2px; background: rgba(255, 255, 255, .1); }
+
+.checkbox label:after { content: ''; position: absolute; top: 12px; right: 0; display: inline-block; width: 11px; height: 8px; transform: translate(-50%, -50%); background: url(images/popup/ico-check.png); background-repeat: no-repeat; background-size: cover; transition: .3s; opacity: 0; visibility: hidden; }
+
+.checkbox input:checked + label:after { opacity: 1; visibility: visible; }
