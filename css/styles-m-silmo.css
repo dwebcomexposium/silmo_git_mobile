@@ -198,7 +198,7 @@ body.ready .global-wrapper { -webkit-transition: opacity 0s .4s, visibility 0s .
 /*  Loading Animation  */
 
 .loading-animation { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #fff; z-index: 460; text-align: center; transition: opacity .3s, visibility .3s; }
-.loading-animation img { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 48px; }
+.loading-animation img { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 120px; }
 
 body.ready .loading-animation { pointer-events: none; opacity: 0; visibility: hidden; }
 
@@ -452,7 +452,7 @@ body.show-nav-main .site-banner .date-mobile { opacity: 1; visibility: visible; 
 /*  Lang Switcher  */
 
 .site-banner .lang-switcher { position: relative; float: none; margin: 0 auto; padding: 20px 0 7px; width: 100%; border-radius: 0; background: transparent; text-align: center; background: #fff; }
-.site-banner .ls-lang-list { display: inline-block !important; }
+.site-banner .ls-lang-list { display: inline-block !important; position: relative !important; top: auto !important; left: auto !important; right: auto !important; }
 
 .site-banner .ls-trigger { opacity: 0; padding: 0; font-size: 0; }
 .site-banner .ls-trigger:after { display: none; }
@@ -477,7 +477,7 @@ body.show-nav-main .site-banner .date-mobile { opacity: 1; visibility: visible; 
 .site-banner .gsf-trigger:focus,
 .site-banner .gsf-trigger:hover { opacity: .8; }
 
-.site-banner .gsf-fields { position: relative; top: auto; bottom: auto; left: auto; margin: 0; width: 100%; opacity: 1; visibility: visible; padding: 0; background: #fff; transform: none; }
+.site-banner .gsf-fields { position: relative !important; top: auto !important; right: auto !important; bottom: auto; left: auto; margin: 0; width: 100% !important; opacity: 1; visibility: visible; padding: 0; background: #fff; transform: none; }
 
 .site-banner .gsf-input-line { position: relative; padding: 0; }
 
@@ -2156,7 +2156,7 @@ body.front .cxp-pagination .grid-la-list .gla-item-btn { display: inline-block; 
 }
 
 .ed-intro__content.aos-animate .animation-title .animation-title__image path {
-	animation: stroke_and_fill 3s linear forwards;
+	animation: stroke_and_fill 6s linear forwards;
 }
 
 @keyframes stroke_and_fill {
@@ -2165,7 +2165,7 @@ body.front .cxp-pagination .grid-la-list .gla-item-btn { display: inline-block; 
 	stroke-dashoffset: 324;
     fill: transparent;
   }
-  40% {
+  50% {
     fill: transparent;
   }
   60% {
