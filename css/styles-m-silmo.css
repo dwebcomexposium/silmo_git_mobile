@@ -710,7 +710,7 @@ body.show-search {}
 .socials--header { padding: 32px 0; }
 .socials--header h5 { padding: 5px 10px 5px 0; font-weight: bold; letter-spacing: 2px; color: #241D4C; }
 .socials--header li { margin-right: 1px; padding: 0 7px 6px; }
-.socials--header ul { margin: 0 -7px; }
+.socials--header ul { margin: 0 -7px; text-align: center; }
 .socials--header ul a { position: relative; display: inline-block; width: 35px; height: 35px; border-radius: 50%; background: #fff; }
 .socials--header ul a i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
@@ -1950,10 +1950,10 @@ body.front .cxp-pagination .grid-la-list .gla-item-btn { display: inline-block; 
 	Socials Large
 \* ------------------------------------------------------------ */
 
-.socials--large { position: relative; top: auto; right: auto; bottom: auto; left: auto; width: auto; text-align: left; color: #fff; }
+.socials--large { position: relative; top: auto; right: auto; bottom: auto; left: auto; width: auto; color: #fff; text-align: center; }
 .socials--large:after { content: ''; display: table; clear: both; line-height: 0; }
 
-.socials--large h5 { float: none; margin: 11px -20px 11px 0; font-weight: bold; font-size: 23px; letter-spacing: 0.08em; display: inline-block; }
+.socials--large h5 { float: none; margin: 11px -20px 11px 0; font-weight: bold; font-size: 17px; letter-spacing: 0.08em; display: inline-block; }
 .socials--large h5 span:before { display: none; }
 .socials--large ul { float: none; padding: 20px 19px 19px 0; margin: 0 -20px 0 0; display: block; }
 .socials--large li { padding: 0 10px 12px 12px; }
@@ -1963,7 +1963,7 @@ body.front .cxp-pagination .grid-la-list .gla-item-btn { display: inline-block; 
 
 
 @media (max-width: 374px){
-	.socials--large h5 { font-size: 19px; letter-spacing: .06em; }
+	.socials--large h5 { font-size: 17px; letter-spacing: .06em; }
 
 	.socials--large ul { padding-right: 0; margin: 0 -5px; }
 	.socials--large li { padding: 0 5px 8px; }
