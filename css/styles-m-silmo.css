@@ -2262,7 +2262,8 @@ body.front .cxp-pagination .grid-la-list .gla-item-btn { display: inline-block; 
 
 
 /*div*/
-.ed-intro h2, #zone1 .breadcrumb-nav, #zone1  .main-navigation, #zone1 button, .at-publication, .gla-item-author  { display: none!important; }
+.ed-intro h2, #zone1 .breadcrumb-nav, #zone1  .main-navigation, #zone1 button, .at-publication, .gla-item-author, .main-navigation #widgetMobileLinkOpenCap  { display: none!important; }
 .article-wrapper  { padding-top: 20px; }
 #zone2 .list-articles { padding-top: 30px; }
 #zone2 .list-articles .intro { padding-top: 0; }
+
