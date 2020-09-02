@@ -2269,6 +2269,6 @@ body.front .cxp-pagination .grid-la-list .gla-item-btn { display: inline-block; 
 /* ------------------------------------------------------------ *\
 	Catalogue - cacher stands
 \* ------------------------------------------------------------ */
-.catal-ed-main-stand, .catal-ex-item-stand {
+.mod-catal .catal-ex-item-stand, .mod-catal .catal-ed-main .catal-ed-main-stand {
     display: none;
 }
