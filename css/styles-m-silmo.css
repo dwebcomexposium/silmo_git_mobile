@@ -2265,3 +2265,10 @@ body.front .cxp-pagination .grid-la-list .gla-item-btn { display: inline-block; 
 .article-wrapper  { padding-top: 20px; }
 #zone2 .list-articles { padding-top: 30px; }
 #zone2 .list-articles .intro { padding-top: 0; }
+
+/* ------------------------------------------------------------ *\
+	Catalogue - cacher stands
+\* ------------------------------------------------------------ */
+.catal-ed-main-stand, .catal-ex-item-stand {
+    display: none;
+}
