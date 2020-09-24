@@ -2272,3 +2272,34 @@ body.front .cxp-pagination .grid-la-list .gla-item-btn { display: inline-block; 
 .mod-catal .catal-ex-item-stand, .mod-catal .catal-ed-main .catal-ed-main-stand {
     display: none;
 }
+
+/* ------------------------------------------------------------ *\
+	Catalogue New
+\* ------------------------------------------------------------ */
+/*fond jaune*/
+#catalog-v2 .bgTint{
+    background-color: #FFED00 !important;
+}
+/*cacher encart présent sur */
+#catalog-v2.catalog-scope div.container div.Container-inner section.CatalogAppointmentBar {
+    display: none !important;}
+
+/*cacher bloc stand fiche exposant et fiche produit*/
+
+#catalog-v2 .CatalogStandsBlock {
+    display: none !important;
+}
+
+@media (min-width: 700px)
+#catalog-v2 .CatalogStandsBlock {
+    display: none !important;
+}
+
+/*cacher nbre de résultats*/
+#catalog-v2 .CatalogResultsTitle-subtitle {
+    display: none !important;}
+
+/*cacher filtre secteur*/
+#catalog-v2 [data-type="sector"] {
+   display: none !important;;
+}
