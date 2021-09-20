@@ -189,7 +189,7 @@ figure { margin: 0; }
     Base
 \* ------------------------------------------------------------ */
 
-body { min-width: 320px; height: auto !important; background: #fff; font-family: 'Gotham', sans-serif; font-size: 16px; line-height: 1.7; color: #353030; font-weight: normal; }
+body { min-width: 320px; height: auto !important; background: #fff; font-family: 'Gotham', sans-serif!important; font-size: 16px; line-height: 1.7; color: #353030; font-weight: normal; }
 
 body:not(.ready) .global-wrapper { opacity: 0; visibility: hidden; }
 body.ready .global-wrapper { -webkit-transition: opacity 0s .4s, visibility 0s .4s; -o-transition: opacity 0s .4s, visibility 0s .4s; transition: opacity 0s .4s, visibility 0s .4s; }
@@ -2272,3 +2272,4 @@ transform: translateX(-50%); }
 #zone2 .list-articles { padding-top: 30px; }
 #zone2 .list-articles .intro { padding-top: 0; }
 
+.VueWrapper { padding-top: 250px!important; }
