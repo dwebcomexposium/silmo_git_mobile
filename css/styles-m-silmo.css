@@ -2273,3 +2273,9 @@ transform: translateX(-50%); }
 #zone2 .list-articles .intro { padding-top: 0; }
 
 .VueWrapper { padding-top: 250px!important; }
+
+/*cacher encart présent sur */
+
+#catalog-v2.catalog-scope div.container div.Container-inner section.CatalogAppointmentBar {
+    display: none !important;}
+
