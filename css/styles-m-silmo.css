@@ -741,7 +741,7 @@ body.show-search {}
 .btn-primary span { position: relative; z-index: 5; }
 
 .btn span:after,
-.btn-primary span:after { content: ''; position: relative; top: 1px; margin: 0 0 0 16px; display: inline-block; width: 24px; height: 14px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-arrow-shape.svg); transition: .3s; }
+.btn-primary span:after { content: ''; position: relative; top: 1px; margin: 0 0 0 16px; display: inline-block; width: 24px; height: 14px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-arrow-shape-b.svg); transition: .3s; }
 
 .btn:hover,
 .btn-primary:hover { -webkit-transition: color .3s .15s; -o-transition: color .3s .15s; transition: color .3s .15s; }
@@ -777,7 +777,7 @@ body.show-search {}
 
 
 .btn-video .ico-play { position: absolute; z-index: 4; left: 0; top: 0; width: 100%; height: 100%; }
-.btn-video .ico-play:before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: inline-block; width: 14px; height: 18px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-play.svg); transition: .3s; }
+.btn-video .ico-play:before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: inline-block; width: 14px; height: 18px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-play-b.svg); transition: .3s; }
 
 
 .btn-video:hover { -webkit-transition: color .3s .15s; -o-transition: color .3s .15s; transition: color .3s .15s; }
@@ -805,7 +805,7 @@ body.safari-fixes .btn-video { padding: 20px 26px 16px 56px; }
 .lien2 span,
 .externe span { position: relative; z-index: 5; }
 .lien1 span:after,
-.lien2 span:after { content: ''; z-index: 2; position: relative; top: 1px; margin: 0 0 0 16px; display: inline-block; width: 24px; height: 14px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-arrow-shape.svg); transition: .3s; }
+.lien2 span:after { content: ''; z-index: 2; position: relative; top: 1px; margin: 0 0 0 16px; display: inline-block; width: 24px; height: 14px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-arrow-shape-b.svg); transition: .3s; }
 
 .lien1:hover,
 .lien2:hover { -webkit-transition: color .3s .15s; -o-transition: color .3s .15s; transition: color .3s .15s; }
@@ -842,7 +842,7 @@ body.safari-fixes .btn-video { padding: 20px 26px 16px 56px; }
 
 .gla-btn-read-more span { position: relative; z-index: 5; }
 
-.gla-btn-read-more span:after { content: ''; position: relative; top: 1px; margin: 0 0 -1px 13px; display: inline-block; width: 22px; height: 13px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-arrow-shape.svg); transition: .3s; }
+.gla-btn-read-more span:after { content: ''; position: relative; top: 1px; margin: 0 0 -1px 13px; display: inline-block; width: 22px; height: 13px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-arrow-shape-b.svg); transition: .3s; }
 
 .gla-btn-read-more:hover { -webkit-transition: color .3s .15s; -o-transition: color .3s .15s; transition: color .3s .15s; }
 
@@ -876,7 +876,7 @@ body.safari-fixes .gla-btn-read-more { padding: 14px 26px 11px 33px; }
 .link-view-all span { position: relative; z-index: 5; }
 
 .link-read-more span:after,
-.link-view-all span:after { content: ''; position: relative; top: 1px; margin: 0 0 -1px 6px; display: inline-block; width: 17px; height: 11px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-arrow-shape.svg); transition: .3s; }
+.link-view-all span:after { content: ''; position: relative; top: 1px; margin: 0 0 -1px 6px; display: inline-block; width: 17px; height: 11px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-arrow-shape-b.svg); transition: .3s; }
 
 
 
@@ -1821,7 +1821,7 @@ body.front .cxp-pagination .grid-la-list .gla-item-btn { display: inline-block; 
 .edi-family .style3 li { position: relative; float: none; padding: 0; width: 100%; }
 
 .edi-family .style3 .lien3 { position: relative; display: block; padding: 17px 0 18px 37px; border-top: 1px solid #353030; font-size: 14px; letter-spacing: .01em;  text-align: left; text-decoration: none; transition: .3s; }
-.edi-family .style3 .lien3:before { content: ''; position: absolute; top: 23px; left: -11px; display: inline-block; width: 25px; height: 14px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-arrow-pill.svg); transition: .3s; }
+.edi-family .style3 .lien3:before { content: ''; position: absolute; top: 23px; left: -11px; display: inline-block; width: 25px; height: 14px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images-2021/ico-arrow-pill-b.svg); transition: .3s; }
 .edi-family .style3 .lien3 strong { margin-bottom: 2px; display: block; text-transform: uppercase; font-size: 15px; font-weight: bold; }
 
 .edi-family .style3 .lien3:hover:before { transform: translateX(8px); }
