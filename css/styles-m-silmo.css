@@ -2270,10 +2270,9 @@ transform: translateX(-50%); }
 .header-box--nav a { transform: none !important; opacity: 1 !important; }
 
 .header-box--sticky { position: fixed; top: 0;  padding: 0; }
-.header-box--sticky a { background: transparent; padding: 17px 10px 15px 75px; font-size: 16px; color: #353030; min-width: auto; min-height: auto; font-weight: bold; letter-spacing: normal;
-}
+.header-box--sticky a { background: transparent; padding: 17px 10px 15px 85px; font-size: 16px; color: #353030; min-width: auto; min-height: auto; font-weight: bold; letter-spacing: normal; }
 .header-box--sticky a:before { display: none; }
-.header-box--sticky .header-box__image { left: 25px; top: 12px; transform: none; }
+.header-box--sticky .header-box__image { left: 35px; top: 12px; transform: none; }
 .header-box--sticky .ico-glasses { background-image: url(images-2021/ico-glasses-white-full.svg); }
 .header-box--sticky .ico-eye:before { background: #fff; }
 .header-box--sticky a br { display: none; }
@@ -2316,7 +2315,7 @@ transform: translateX(-50%); }
 .hero-swiper .la-item-title a { position: relative; font-size: 0; line-height: 1; width: 290px; display: inline-block; color: transparent; }
 .hero-swiper .la-item-title a > span { display: block; color: transparent;  }
 .hero-swiper .la-item-title a > span > span {  }
-.hero-swiper .la-item-title a span > span > span  { font-size: 28.77px; letter-spacing: -0.03em; line-height: 1.32; padding: 0.1rem 2.2rem 0.1rem 0; }
+.hero-swiper .la-item-title a span > span > span  { font-size: 28.77px; letter-spacing: -0.03em; line-height: 1.32; padding: 0.5rem 2.2rem 0.5rem 0; }
 
 .hero-swiper .la-item-title a > span:first-child > span > span { display: block; transform-origin: center }
 
