@@ -2362,4 +2362,6 @@ transform: translateX(-50%); }
 .cl-content .cl-item .cl-item-photo {
     bottom: 15px;
 }
-
+.block.block-page.article-navigation.aos-init.aos-animate {
+    display: none;
+}
