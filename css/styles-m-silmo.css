@@ -2365,3 +2365,10 @@ transform: translateX(-50%); }
 .block.block-page.article-navigation.aos-init.aos-animate {
     display: none;
 }
+
+.site-banner .ls-lang-fr .ls-lang-link:before {
+    background-image: url(images-2021/ico-flag-fr.png);
+}
+.site-banner .ls-lang-en .ls-lang-link:before {
+    background-image: url(images-2021/ico-flag-en.svg);
+}
