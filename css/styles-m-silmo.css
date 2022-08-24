@@ -2358,3 +2358,8 @@ transform: translateX(-50%); }
 
 .hero-swiper .slider-pagin { pointer-events: none!important; }
 .hero-swiper .slider-pagin-nb .slider-pagin-item  { pointer-events: auto!important; }
+
+.cl-content .cl-item .cl-item-photo {
+    bottom: 15px;
+}
+
