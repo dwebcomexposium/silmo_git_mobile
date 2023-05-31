@@ -2372,3 +2372,6 @@ transform: translateX(-50%); }
 .site-banner .ls-lang-en .ls-lang-link:before {
     background-image: url(images-2021/ico-flag-en.svg);
 }
+.article-content>h2:first-of-type+p {
+    display: block;
+}
